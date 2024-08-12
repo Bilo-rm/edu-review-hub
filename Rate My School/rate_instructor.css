@@ -1,0 +1,173 @@
+
+
+body {
+
+    min-height: 100vh;
+    background: #faedde;
+}
+
+header {
+    background: #faedde;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd; /* Change as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow properties */
+}
+
+.wrapper {
+    background: #f5f5f5;
+    padding: 2rem;
+    max-width: 80%; /* Adjusted max-width */
+    margin-top: 80px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .75rem;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.wrapper h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
+
+textarea{
+
+    margin-right: 2rem;
+    width: 95%;
+    background: #f5f5f5;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-bottom: .5rem;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.1), -15px -15px 20px #fff;
+
+}
+.btn-group{
+    display: flex;
+    border-radius: .5rem;
+    align-items: center;
+}
+
+.btn-group .btn{
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .875rem;
+    font-weight: 500;
+
+}
+.btn-group .btn.submit{
+    background: #4383ff;
+    color: #fff;
+    margin-right: .5rem;
+}
+.btn-group .btn.submit:hover{
+    background: #3278ff;
+    
+}
+.btn-group .btn.cancel{
+    background:#fff;
+    color: #4383ff;
+}
+.btn-group .btn.cancel:hover{
+    background: #f5f5f5;
+    
+}
+
+
+.ratebox {
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.ratebox p{
+    width: 5rem;
+    height: 40px;
+    text-align: center;
+}
+.ratebox .range{
+    width: 75%;
+    margin:0px 10px;
+}
+
+.ratebox .ratevalue{
+    font-weight: 40px;
+    font-size: 1.25em;
+    width:60px;
+    height: 30px;
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+    margin-bottom: 0%;
+
+}
+
+.ratevalue{
+    position: relative;
+    text-align: center;
+    width:60px;
+    font-size: 1.25em;
+    color: aliceblue;
+    background: #27a0ff;
+    margin-left: 15px;
+    border-radius: 25px;
+    font-weight: 500;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1),
+    -5px -5px 10px #fff ,
+    inset 5px 5px 10px rgba(0,0,0,0.1),
+    inset -5px -5px 5px rgba(0,0,0,0.1);   
+}
+.label-text{
+
+    width:180px;
+    font-size: 1.25em;
+    color: rgb(0, 0, 0);
+    margin-right: 25px;
+    margin-left: 0%;
+    font-weight: 500;
+   
+}
+#write{
+ margin-bottom: 1rem;  
+
+}
+
+.range{
+    width: 150px;
+    height: 15px;
+    appearance: none;
+    background: #edf1f4;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1),
+    -5px -5px 10px #fff ,
+    inset 5px 5px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.range::-webkit-slider-thumb{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #0074cf;
+    box-shadow: -407px 0 0 400px #27a0ff;
+}
+
+.navbar-nav li.nav-item {
+    margin-right: 25px;
+}
+
+#user{
+    margin-left: 25px; 
+}

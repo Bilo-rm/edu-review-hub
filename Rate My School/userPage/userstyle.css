@@ -1,0 +1,316 @@
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: #faedde;
+
+}
+header {
+    background:#faedde ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd; /* Change as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow properties */
+  }
+
+  .wrapper{
+    background: #faedde;
+    padding: 2rem;
+    max-width: 100%;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: .75rem;
+    /*background-image: linear-gradient(#ffe2c1, #f3fafa);*/
+
+}
+.input-group{
+    display: flex;
+    border-radius: .5rem;
+    align-items: center;
+}
+
+#searchBtn{
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .875rem;
+    font-weight: 500;
+    
+
+}
+
+#searchForm{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1), -10px -10px 15px  rgba(0,0,0,0.1);
+ 
+ }
+ #searchInput{
+    border-radius: 10px;
+ }
+
+ /******/
+ /*.avgbox{
+    background: #ffffff;
+    padding: 2rem;
+    max-width: 60%;
+    margin-top: 10px;
+    width: 80% ;
+    height: 500px; 
+    border-radius: .75rem;
+    position: absolute;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1), -10px -10px 15px  rgba(0,0,0,0.1);
+ }
+ .rateavrgbox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05),#edf1f4);
+    border-radius: 45px;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.1), -15px -15px 20px #fff;
+ 
+ }*/
+ .avgbox {
+    background-color: #fff;
+    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 60%;
+    margin-left: 25% !important;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1), -10px -10px 15px  rgba(0,0,0,0.1);
+
+ 
+}
+ .logo img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+ .rateavrgbox {
+position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 10px;
+    max-width:300px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05),#edf1f4);
+    border-radius: 5px;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.1), -15px -15px 20px #fff;
+}
+
+.rateavrgbox p {
+    margin: 5px 0;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.range{
+    width: 130px;
+    height: 15px;
+    margin-left: 5px;
+    appearance: none;
+    background: #edf1f4;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1),
+    -5px -5px 10px #fff ,
+    inset 5px 5px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.range::-webkit-slider-thumb{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #0074cf;
+    box-shadow: -407px 0 0 400px #27a0ff;
+}
+.ratevalue{
+    position: relative;
+    text-align: center;
+    width:40px;
+    font-size: .75em;
+    color: aliceblue;
+    background: #27a0ff;
+    margin-left: 20px;
+    border-radius: 25px;
+    font-weight: 400;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1),
+    -5px -5px 10px #fff ,
+    inset 5px 5px 10px rgba(0,0,0,0.1),
+    inset -5px -5px 5px rgba(0,0,0,0.1);   
+}
+/*** comments***/
+.comments-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-box {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+
+}
+
+
+.commentsummary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+
+.commentoverall {
+    width: 45px; height: 45px;
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+    text-align: center;
+    background: #27a0ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.overall{ 
+    width: 35px;
+    height: 35px;
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+    background: #27a0ff;
+   
+}
+.commentoverall h3 {
+    margin: 0;
+    color: white;
+}
+hr {
+        border: none;
+        border-top: 3px double #333;
+        color: #333;
+        overflow: visible;
+        text-align: center;
+        height: 5px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonial {
+    width: 30%;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.testimonial p {
+    margin-top: 0;
+}
+
+/* Other CSS styles... */
+
+/* Summary and more details CSS */
+.summary {
+    max-height: 100px; /* Set the height for summary display */
+    text-align: center;
+    overflow: hidden;
+}
+
+.more-details {
+    display: none; /* Hide more details by default */
+}
+
+.show-more {
+    color: #27a0ff;
+    cursor: pointer;
+}
+
+
+.moredetailratings{
+    display: flex;
+    flex-direction: row;
+    
+}
+.moredetailratings p{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.moredetailratings .range{
+    width: 75%;
+    margin:0px 10px;
+}
+
+.moredetailratings .ratevalue{
+    font-weight: 40px;
+    font-size: 1.25em;
+    width:60px;
+    height: 30px;
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+    margin-bottom: 0%;
+
+}
+
+
+    hr {
+        border: 0;   
+        width: 50%;               
+        background-color:#faedde;
+        height: 1px;
+        margin-top: 0;
+      }
+
+      .container-marketing {
+        margin-top: 50px; /* Adjust the margin as needed for vertical centering */
+    }
+    
+    .column {
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center; /* Center the text */
+       
+    }

@@ -1,0 +1,71 @@
+
+ 
+ 
+.body-section{
+  
+  background-color: #faedde;
+  
+   /* background-image: url("./svg/istockphoto-1193456394-612x612.jpg");*/
+}
+
+
+#logoname{
+  background-color: #faedde; /* Use the desired shade of blue */
+  color: #000000 ; 
+}
+
+#logoimg{
+  background-color: #faedde; /* Use the desired shade of blue */
+  color:#058ccb;
+}
+
+.navbar {
+  background-color: #faedde; /* Use the desired shade of blue */
+  color: #058ccb; /* Set text color to white or any contrasting color */
+  
+}
+.nav-item{
+  background-color: #faedde; /* Use the desired shade of blue */
+  color:#058ccb;
+}
+
+#navi{
+  background-color: #faedde; /* Use the desired shade of blue */
+  color:#058ccb;
+}
+#navbarNavDropdown{
+  background-color: #faedde; /* Use the desired shade of blue */
+  color:#058ccb;
+}
+.d-flex{
+  background-color: #faedde; /* Use the desired shade of blue */
+  color:#058ccb;
+}
+.dropdown{
+  background-color: #faedde; /* Use the desired shade of blue */
+  color:#058ccb;
+}
+.navbar-brand{
+  background-color: #faedde; /* Use the desired shade of blue */
+  color:#058ccb;
+}
+.navbar-toggler{
+  background-color: #faedde; /* Use the desired shade of blue */
+  color:#058ccb;
+}
+.navbar-toggler-icon{
+  background-color: #faedde; /* Use the desired shade of blue */
+  color:#058ccb;
+}
+
+/*Stick nav bar*/
+/*
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+*/
